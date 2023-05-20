@@ -48,11 +48,11 @@ export async function memoriesRoutes(app: FastifyInstance) {
         content,
         coverUrl,
         isPublic,
-        userId: '503e3ebb-9415-4ea8-82ff-d79a7a2deb93g',
-      },
+        userId:  "585af4e6-9fcd-4183-a632-470063555f7c"
+      }
     })
 
-    return memory
+    return memory;
   })
 
   app.put('/memories/:id', async (request) => {
